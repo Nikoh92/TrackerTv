@@ -1,0 +1,14 @@
+{
+  "breadcrumbs.enabled": true,
+  "gitlens.advanced.messages": {
+    "suppressFileNotUnderSourceControlWarning": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "vetur.validation.template": false,
+  "prettier.singleQuote": false,
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false
+}
