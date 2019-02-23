@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar app>
+    <v-toolbar app class="header-style">
       <v-toolbar-title class="headline text-uppercase">
         <span>Show Tracker</span>
         <span class="font-weight-light">Vuejs</span>
@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
 import Home from "./views/Home";
 import { Component, Vue } from "vue-property-decorator";
 
@@ -29,3 +28,9 @@ import { Component, Vue } from "vue-property-decorator";
 })
 export default class App extends Vue {}
 </script>
+
+<style lang="scss">
+.header-style {
+  background-color: #bbd230 !important;
+}
+</style>
